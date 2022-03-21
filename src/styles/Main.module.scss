@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../../public/main-background.jpg");
+    background-position: center top;
+    background-size: 100vw 100vh;
+
+    .textGroup{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    
+        color: #FFF;
+
+        .title{
+            font-size: 44px;
+        }
+
+        .name{
+            font-size: 36px;
+        }
+    }
+}
+

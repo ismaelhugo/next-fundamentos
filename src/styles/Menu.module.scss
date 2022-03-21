@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.item{
+    margin: 8px;
+    padding: 8px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.item:hover{
+    background-color: rgba($color: #4a4ddd, $alpha: 0.6);
+    
+    a{
+        color: #fff;
+    }
+}
